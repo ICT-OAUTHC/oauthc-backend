@@ -74,6 +74,15 @@ pnpm run build
 pnpm start
 ```
 
+### Deploy to Render
+
+| Setting | Value |
+|---|---|
+| Build Command | `pnpm install && pnpm build` |
+| Start Command | `pnpm start` |
+
+Set all environment variables from the table above in the Render dashboard. `typescript` and `@types/*` are in `dependencies` (not devDependencies) so they're available during the build step.
+
 ---
 
 ## Project Structure
