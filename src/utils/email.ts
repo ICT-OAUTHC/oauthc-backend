@@ -23,7 +23,14 @@ function layout(title: string, body: string) {
       <table width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;background:#ffffff;border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.08)">
         <!-- Header -->
         <tr><td style="background:#14532d;padding:28px 32px">
-          <h1 style="margin:0;color:#ffffff;font-size:18px;font-weight:700;letter-spacing:-0.3px">${title}</h1>
+          <table cellpadding="0" cellspacing="0" width="100%"><tr>
+            <td style="vertical-align:middle;width:40px;padding-right:14px">
+              <img src="${FRONTEND}/logo.png" alt="OAUTHC" width="40" height="40" style="display:block;border-radius:8px" />
+            </td>
+            <td style="vertical-align:middle">
+              <h1 style="margin:0;color:#ffffff;font-size:18px;font-weight:700;letter-spacing:-0.3px">${title}</h1>
+            </td>
+          </tr></table>
         </td></tr>
         <!-- Body -->
         <tr><td style="padding:32px;color:#374151;font-size:15px;line-height:1.7">
